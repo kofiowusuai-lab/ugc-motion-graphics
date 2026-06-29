@@ -1,0 +1,28 @@
+# deps + build artifacts
+node_modules/
+out/
+dist/
+.env
+.env.*
+*.log
+*.tsbuildinfo
+# per-job staging (base videos + generated props are derived, not source)
+public/jobs/
+public/pit/
+# stray work media at public root (keep curated assets below)
+public/*.mp4
+public/*.mov
+public/*_words.json
+public/*_props.json
+scripts/__pycache__/
+*.pyc
+# OS
+.DS_Store
+
+# KEEP (curated standard assets — do NOT ignore):
+#   src/, scripts/, package.json, package-lock.json, tsconfig.json,
+#   MALIK_LANE_STANDARD.md,
+#   public/fonts/**, public/sfx/**, public/music/**
+!public/fonts/
+!public/sfx/
+!public/music/

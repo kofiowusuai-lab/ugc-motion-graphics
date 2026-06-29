@@ -1,0 +1,20 @@
+{
+  "name": "ugc-motion-graphics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion motion-graphics layer for the UGC avatar pipeline (kinetic captions, lower-thirds, keyword pops, transitions over avatar clips).",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.0"
+  }
+}
